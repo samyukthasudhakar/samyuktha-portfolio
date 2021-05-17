@@ -1,6 +1,6 @@
 This is a readme file for the portfolio website that is created.
 
----this is currently under build, kindly wait to see the output---
+---this is currently being built, kindly wait to see the output---
 
 ->The portfolio site containes three sections : about, projects, blogs.
 
