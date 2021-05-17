@@ -1,4 +1,4 @@
-#This is a readme file for the portfolio website that is created.
+This is a readme file for the portfolio website that is created.
 
 ---this is currently being built, kindly wait to see the output---
 
