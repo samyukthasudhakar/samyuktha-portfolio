@@ -1,0 +1,149 @@
+:root{
+    --primary-color:#000000;
+    --full-white:#ffffff;
+    --blue-color:#37FDFC;
+    --grey-color:#181818;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--full-white);
+    margin:0px;
+    text-align: center;
+}
+
+
+.float-img{
+    display:block;
+    max-width: 30%;
+    margin:auto;
+}
+
+.left-div{
+    width: 50%;
+    float: left; 
+}
+
+.right-div{
+    width:50%;
+    margin-left: 50%; 
+    padding-bottom: 21rem;
+}
+
+header{
+    padding-top:2rem;
+    padding-bottom : 4rem;
+}
+nav{
+    margin:0px;
+    padding-top:1rem;
+}
+
+div{
+    padding-bottom:3px;
+}
+nav p{
+    font-weight: bold;
+    color:var(--primary-color);
+}
+
+footer{
+    display:block;
+    padding-top: 1rem;
+    text-align:center;
+    margin:0;
+}
+
+.link{
+    color:var(--blue-color);
+    padding: 2rem 2rem;
+    text-decoration: none;
+}
+
+.list-non-bullet{
+    list-style:none;
+}
+
+.navpills{
+    text-align:right;
+}
+
+.active-link{
+    font-weight: bolder;
+}
+.list-inline-item{
+    color:var(--blue-color);
+    display:inline;
+    text-align:right;
+}
+
+.diff-color{
+    background-color:var(--blue-color);
+}
+
+.center-container{
+    padding:1rem 0 3rem 0;
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+}
+
+.color-container{
+    background-color:var(--grey-color);
+    padding:1rem 0rem 3rem 0rem;
+    text-align:center;
+}
+
+.container-center{
+    padding-bottom: 2rem;
+    max-width: 600px;
+    margin:auto;
+}
+.text-center{
+    text-align:center;
+}
+
+.tech-styling{
+    padding:0.5rem 1rem;
+    box-sizing: border-box;
+    background-color: var(--blue-color);
+    font-weight: bold;
+    border-radius: 0.5rem;
+    display: inline;
+    margin:1rem 1rem;
+    color:var(--primary-color);
+}
+
+.link-styling{
+    margin:10rem;
+    text-decoration :none;
+    color:var(--primary-color);
+}
+
+/**projects file styling**/
+
+.project-container{
+    border:solid;
+    border-radius: 1rem;
+    border-color: var(--full-white);
+    max-width: 600px;
+    margin:auto;
+    padding:1.5rem;
+
+}
+
+.procolor-container{
+    border:solid;
+    border-radius: 1rem;
+    border-color: var(--blue-color);
+    max-width: 600px;
+    margin:auto;
+    padding:1.5rem;
+}
+
+.project-container  h3{
+    font-weight: bolder;
+    color:var(--blue-color);
+}
+
