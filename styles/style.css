@@ -3,6 +3,7 @@
     --full-white:#ffffff;
     --blue-color:#37FDFC;
     --grey-color:#181818;
+    --dull-blue:#2ab8b8;
 }
 
 body{
@@ -188,3 +189,48 @@ footer{
     background-color: grey;
 }
 
+/*blog.html styling*/
+
+.blog-cards{
+    display:block;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.blog-card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius:1rem;
+    max-width: 800px;
+    background-color: var(--grey-color);
+    color:black;
+    margin:1rem 0rem;
+    text-align: start;
+    padding:0rem 1rem 1rem 1rem;
+    
+}
+
+.blog-heading{
+    color:var(--blue-color);
+}
+
+.blog-date{
+    color:var(--full-white);
+    font-weight:bold;
+}
+
+.blog-content{
+    display: block;
+    color:var(--full-white);
+}
+
+.blog-link{
+    text-decoration: none;
+    color: black;
+    background-color: var(--dull-blue);
+    border : solid 1px;
+    border-radius:0.5rem;
+    padding:0.3rem;
+    font-weight:bold;
+}
