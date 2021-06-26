@@ -234,3 +234,44 @@ footer{
     padding:0.3rem;
     font-weight:bold;
 }
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+    position: relative;
+    background-color:var(--grey-color);  
+    padding: 1rem 1rem;
+    color:var(--blue-color);
+    max-width: 40%;
+    border-radius: 1rem;
+}
+  
+.modal__close {
+    /* position: absolute;
+    top: -30px; */
+    float:right;
+    right: 0;
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.modal__image{
+    border-radius: 50%;
+    max-width: 30%;
+}
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
