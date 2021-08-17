@@ -5,27 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/project.png" type="image/gif" sizes="16x16">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Projects</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <ul class="list-non-bullet navpills">
-                <li class="list-inline-item "><a class="link" href="index.html">Home</a></li>
-                <li class="list-inline-item "><a class="link active-link" href="projects.html">Projects</a></li>
-                <li class="list-inline-item "><a class="link" href="blogs.html">Blogs</a></li>
-                <li class="list-inline-item "><a class="link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div>
+        <nav>
+            <div>
+                <input type="checkbox" id="click">
+                <label for="click" class="menu-button">
+                &#9776;
+                </label>
+                <ul class="list-non-bullet navpills">
+                    <li class="list-inline-item "><a class="link" href="index.html">Home</a></li>
+                    <li class="list-inline-item "><a class="link active-link" href="projects.html">Projects</a></li>
+                    <li class="list-inline-item "><a class="link" href="blogs.html">Blogs</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <header><h2 class="tech-styling">Projects 💻</h2></header>
+
     <div class="project-cards">
         <div class="card">
             <div >
-                <img class="card-image" src="images/travel.png" alt="image of card 7"/>
+                <img class="card-image" src="images/stock.jpg" alt="image of card 11"/>
+            </div>
+            <div class="card-heading">
+                <p>Stock Analyzer 💰</p>
+            </div>
+            <div class="card-content">
+                <p>A simple app to let you know the profit or loss made of the stocks that you have invested in !</p>
+            </div>
+            <div>
+                <a class="card-link" href="https://stockprofitestimator.netlify.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/profit-or-loss">Source Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+                <img class="card-image" src="images/calendar-1.jpg" alt="image of card 10"/>
+            </div>
+            <div class="card-heading">
+                <p>Pallindrome Birthday 📅</p>
+            </div>
+            <div class="card-content">
+                <p>Find out if your birthdate is a palindrome date or not and if no then the number of days by which you missed . </p>
+            </div>
+            <div>
+                <a class="card-link" href="https://palindrome-or-not.netlify.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/palindrome-birthday">Source Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+                <img class="card-image" src="images/triangle-1.jpg" alt="image of card 9"/>
+            </div>
+            <div class="card-heading">
+                <p>Triangle-o-pedia 📐</p>
+            </div>
+            <div class="card-content">
+                <p>Everything you need to know about triangles. Check out all the calulators and take up the quiz at the end.</p>
+            </div>
+            <div>
+                <a class="card-link" href="https://triangleopedia.netlify.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/all-about-triangles">Source Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <div>
+                <img class="card-image" src="images/wand.jpg" alt="image of card 8"/>
+            </div>
+            <div class="card-heading">
+                <p>Luck Calculator 🔮</p>
+            </div>
+            <div class="card-content">
+                <p>Luck is believing you're lukcy. Find out if your birthdate is lucky or not with this luck caclulator ! </p>
+            </div>
+            <div>
+                <a class="card-link" href="https://luckcalculator.netlify.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/is-your-birthday-lucky">Source Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <div> 
+                <img class="card-image" src="images/cashregister.jpg" alt="image of card 7"/>
+            </div>
+            <div class="card-heading">
+                <p>Cash Register 💸</p>
+            </div>
+            <div class="card-content">
+                <p>A simple app that helps you find out the balance amount to be given using least number of notes.</p>
+            </div>
+            <div>
+                <a class="card-link" href="https://billbalance.netlify.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/cash-register">Source Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <div >
+                <img class="card-image" src="images/travel.png" alt="image of card 6"/>
             </div>
             <div class="card-heading">
                 <p>Next stop ⛺</p>
@@ -34,8 +114,8 @@
                 <p>Planning your next trip ? Check this recommendation app that suggests you cool places to visit !</p>
             </div>
             <div>
-                <a class="card-link" href="https://codesandbox.io/s/github/samyukthasudhakar/moive-recommender">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/moive-recommender">Source Code</a>
+                <a class="card-link" href="https://fzijl.csb.app/">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/next-stop">Source Code</a>
             </div>
         </div>
         <div class="card">
@@ -46,48 +126,49 @@
                 <p>Emojipedia 🔍</p>
             </div>
             <div class="card-content">
-                <p>Confused on what emoji to use ? Check this interpreter that tells you what each emoji means !</p>
+                <p>Are you confused? Check this interpreter that tells you what each emoji means !</p>
             </div>
             <div>
                 <a class="card-link" href="https://6poki.csb.app/">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/emojipedia">Source Code</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/emojipedia">Source Code</a>
             </div>
         </div>
         <div class="card">
             <div> 
-                <img class="card-image" src="images/groot.jpg" alt="image of card 1"/>
+                <img class="card-image" src="images/groot.jpg" alt="image of card 4"/>
             </div>
             <div class="card-heading">
                 <p>I am Groot 💚</p>
             </div>
             <div class="card-content">
-                <p>A translator that converts english phrases into cute little groot's language.</p>
+                <p>A translator that converts english phrases into cute little groot's language.
+                </p>
             </div>
             <div>
                 <a class="card-link" href="https://i-am-groooot.netlify.app/">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/speak-like-groot">Source Code</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/speak-like-groot">Source Code</a>
             </div>
         </div>
 
         <div class="card">
             <div >
-                <img class="card-image" src="images/minion.jpg" alt="image of card 7"/>
+                <img class="card-image" src="images/minion.jpg" alt="image of card 3"/>
             </div>
             <div class="card-heading">
                 <p>Talk Bananas 🍌</p>
             </div>
             <div class="card-content">
-                <p>The gibberish that minions speak is an actual language. Try this translator app that converts english words into minion language.</p>
+                <p>Try this translator app that converts english words into minion language.</p>
             </div>
             <div>
                 <a class="card-link" href="https://minions-lingo.netlify.app/">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/speak-like-a-minion">Source Code</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/speak-like-a-minion">Source Code</a>
             </div>
         </div>
 
         <div class="card">
             <div>
-                <img class="card-image" src="images/b99.jpg" alt="image of card 3"/>
+                <img class="card-image" src="images/b99.jpg" alt="image of card 2"/>
             </div>
             <div class="card-heading">
                 <p>Brooklyn 99 Trivia 🚓</p>
@@ -96,14 +177,14 @@
                 <p>Are you a B99 fan ? Then check this out B99 Trivia (a CLI quiz app) to see how much you know !</p>
             </div>
             <div>
-                <a class="card-link" href="bit.ly/3yhc6kl">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/Brooklyn-99-trivia">Source Code</a>
+                <a class="card-link" href="https://replit.com/@sam7300/brooklyn99trivia?embed=1&output=1">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/Brooklyn-99-trivia">Source Code</a>
             </div>
         </div>
 
         <div class="card">
             <div >
-                <img class="card-image" src="images/me.jpg" alt="image of card 7"/>
+                <img class="card-image" src="images/me.jpg" alt="image of card 1"/>
             </div>
             <div class="card-heading">
                 <p>How well do you know me 💁🏽‍♀️</p>
@@ -112,9 +193,15 @@
                 <p>A CLI quiz app, with questions based on me to find out how much someone knows about me :P</p>
             </div>
             <div>
-                <a class="card-link" href="bit.ly/2ryciis">Live Demo</a>
-                <a class="card-link" href="https://github.com/samyukthasudhakar/How-well-do-you-know-me">Source Code</a>
+                <a class="card-link" href="https://replit.com/@sam7300/how-well-do-you-know-me?embed=1&output=1#index.js">Live Demo</a>
+                <a class="secondary-card-link" href="https://github.com/samyukthasudhakar/How-well-do-you-know-me">Source Code</a>
             </div>
+        </div>
+        <div class="footer">
+            <a href="https://github.com/samyukthasudhakar"><img src="images/github.svg"  class="footer_icon"></a>
+            <a href="https://www.linkedin.com/in/samyukthasudhakar/"><img src="images/linkedin.svg" class="footer_icon"></a>
+            <a href="https://twitter.com/samyuktha7300"><img src="images/twitter.svg"  class="footer_icon"></a>
+            <a href="https://samyukthasudhakar.netlify.app/"><img src="images/person.svg"  class="footer_icon"></a>
         </div>
     </div>
 </body>
