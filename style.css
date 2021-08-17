@@ -18,9 +18,11 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--primary-color);
     color: var(--full-white);
-    margin:0;
     text-align: center;
     justify-content: center;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 .content-p{
@@ -325,7 +327,6 @@ nav label{
     display:block;
     list-style: none;
     align-items: center;
-    
 }
 
 .blog-card{
@@ -335,10 +336,9 @@ nav label{
     max-width: 800px;
     background-color: var(--grey-color);
     color:black;
-    margin:1rem 0rem;
+    margin:1rem auto;
     text-align: start;
     padding:0rem 1rem 1rem 1rem;
-    
 }
 
 .blog-heading{
@@ -358,7 +358,7 @@ nav label{
 .blog-link{
     text-decoration: none;
     color: black;
-    background-color: var(--dull-blue);
+    background-color: var(--blue-color);
     border : solid 1px;
     border-radius:0.5rem;
     padding:0.3rem;
@@ -382,3 +382,7 @@ nav label{
     padding: 0.5rem;
 }
 
+.footer-endline{
+    font-size: 14px;
+    padding-bottom:1rem;
+}
