@@ -39,7 +39,7 @@ span{
     border-radius: 0.5rem;
 }
 .container{
-    max-width:60%;
+    max-width:700px;
     margin:3rem auto;
     padding:2rem;
     text-align: justify;
