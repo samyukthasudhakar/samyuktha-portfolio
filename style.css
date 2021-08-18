@@ -88,7 +88,6 @@ nav label{
         top:70px;
         left:-115%;
         background:var(--primary-color);
-        /* height:100vh; */
         width:100%;
         display:block;
         text-align:center;
@@ -121,39 +120,6 @@ nav label{
 }
  
 
-
-
-
-
-
-/* @media only screen and (max-width:500px) {
-    body{
-        font-size: small;
-    }
-    label{
-        display:block;
-        cursor:pointer;
-    }
-    .menu{
-        text-align:center;
-        width:100%;
-        display:none;
-    }
-    .menu a{
-        display:block;
-        background-color:grey;
-        color:white;
-        border-bottom: 1px solid #EAEAEB;
-        margin:0;
-    }
-    #toggle:checked + .menu{
-        display:block;
-    }
-    .intro img{
-        min-width:50%;
-    }
-}  */
-
 .intro{
     padding:2rem 0 4rem 0;
 }
@@ -169,8 +135,9 @@ nav label{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     margin:auto;
+    width:50%;
 }
 
 .tech-pills{
@@ -256,6 +223,9 @@ nav label{
 /**projects.html styling**/
 
 .project-cards{
+    width:80%;
+    height:100%;
+    margin:1rem auto;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -266,17 +236,15 @@ nav label{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     border : solid 2px black;
     color:white;
     background-color: var(--grey-color);
     border-radius: 1rem;
     width:300px;
     height:400px;
-    margin:0 1rem 2rem 0;
-}
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin:1rem;
+    padding:0.5rem;
 }
 
 .card-image{
@@ -293,7 +261,7 @@ nav label{
 }
 .card-heading p{
     margin:0;
-}
+} 
 .card-content{
     margin-bottom: 1rem;
     padding:0 1rem;
@@ -310,6 +278,7 @@ nav label{
     padding:0.5rem;
     border-radius: 0.7rem;
     background-color: grey;
+    box-sizing: border-box;
 }
 .secondary-card-link{
     text-decoration: none;
@@ -319,11 +288,30 @@ nav label{
     margin:1rem;
     padding:0.5rem;
     border-radius: 0.7rem;
+    box-sizing: border-box;
+}
+ @media (max-width:940px){
+    .project-cards{
+        width:100%
+    }
+    .card{
+        font-size: large;
+        margin:1rem;
+        padding:0.5rem;
+    }
 }
 
 /*blog.html styling*/
-
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:80%;
+    margin: auto;
+}
 .blog-cards{
+    
     display:block;
     list-style: none;
     align-items: center;
@@ -346,7 +334,7 @@ nav label{
 }
 
 .blog-date{
-    color:var(--full-white);
+    color:grey;
     font-weight:bold;
 }
 
