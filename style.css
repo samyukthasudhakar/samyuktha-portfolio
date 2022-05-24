@@ -135,7 +135,8 @@ nav label{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     margin:auto;
     width:50%;
 }
@@ -284,7 +285,7 @@ nav label{
     text-decoration: none;
     color:white;
     font-size: small;
-    border:solid 1px grey;
+    border:solid 1.5px grey;
     margin:1rem;
     padding:0.5rem;
     border-radius: 0.7rem;
